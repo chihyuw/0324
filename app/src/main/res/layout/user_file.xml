@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#B7BDE0"
+        android:text="註冊"
+        android:textColorHighlight="#BFABC2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#3F5C2C2C"
+        android:ems="10"
+        android:hint="身分證字號"
+        android:inputType="text"
+        android:textColorLink="#FFFFFF"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#3F5C2C2C"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#3F5C2C2C"
+        android:ems="10"
+        android:hint="姓名"
+        android:inputType="text"
+        android:textColorLink="#FFFFFF"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#3F5C2C2C"
+        android:ems="10"
+        android:hint="手機號碼"
+        android:inputType="phone"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#3F5C2C2C"
+        android:ems="10"
+        android:hint="性別"
+        android:inputType="text"
+        android:textColorLink="#FFFFFF"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="271dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="51dp"
+        android:text="建立用戶資料"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="131dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

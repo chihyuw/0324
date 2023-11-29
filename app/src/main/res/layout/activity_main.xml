@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#B7BDE0"
+        android:text="註冊"
+        android:textColorHighlight="#BFABC2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="552dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="VISITOR"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editText"
+        tools:layout_editor_absoluteX="129dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#3F5C2C2C"
+        android:ems="10"
+        android:hint="身分證字號"
+        android:inputType="text"
+        android:textColorLink="#FFFFFF"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="331dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#3F5C2C2C"
+        android:ems="10"
+        android:hint="密碼"
+        android:inputType="textPassword"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:backgroundTint="#B7BDE0"
+        android:text="登入"
+        android:textColorHighlight="#BFABC2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="456dp" />
+
+    <View
+        android:layout_width="250dp"
+        android:layout_height="1dp"
+        android:background="#3F522727"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="531dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
